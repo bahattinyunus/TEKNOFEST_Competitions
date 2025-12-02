@@ -1,8 +1,6 @@
 
 <div align="center">
-İşte Robolig hakkında hazırladığım detaylı bilgilerin, **GitHub**, **Notion** veya **Obsidian** gibi platformlarda harika görünecek şekilde düzenlenmiş Markdown versiyonu:
 
-***
 
 # 🏆 Teknofest Robolig: Otonom Futbolun Zirvesi
 
