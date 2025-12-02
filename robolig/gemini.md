@@ -141,3 +141,55 @@ Lütfen sağ üst köşedeki ⭐ **Star** butonuna basarak bize destek olun\!
 \</div\>
 
 ```
+**Robolig**, Teknofest kapsamında düzenlenen, otonom robotların futbol oynadığı, hem donanım hem de yazılım becerilerinin sınırlarını zorlayan prestijli bir yarışma kategorisidir.
+
+Dünya genelindeki **RoboCup Small Size League (SSL)** formatına benzer bir yapıdadır. Amaç sadece robot yapmak değil, sahada takım halinde hareket edebilen, strateji kuran ve rakibi yenen bir **Yapay Zeka** geliştirmektir.
+
+İşte Robolig hakkında bilmen gereken detaylı teknik ve stratejik bilgiler:
+
+### 1. Yarışma Formatı ve Saha Yapısı
+* **Oyun Tarzı:** Genellikle 3'e 3 veya 4'e 4 (yıllık şartnameye göre değişir) oynanan bir futbol maçıdır.
+* **Otonomi:** Robotlar tamamen otonomdur. Maç başladıktan sonra hiçbir insan müdahalesi (kumanda vb.) yapılamaz.
+* **Saha:** Yeşil halı zemin üzerinde, beyaz çizgilerle belirlenmiş bir alandır.
+* **Top:** Genellikle turuncu renkli bir golf topu kullanılır (Görüntü işlemede renk ayrımı kolay olsun diye).
+* **Hakem:** Oyunu yöneten bir insan hakem vardır ancak hakem komutları (başla, dur, faul, gol) bir yazılım (Referee Box) üzerinden bilgisayara girilir ve bu sinyaller robotlara kablosuz ağ ile iletilir.
+
+### 2. Sistemin Çalışma Prensibi (Global Vision)
+Robolig'in en karakteristik özelliği, robotların kendi üzerindeki kameralardan ziyade (veya onlara ek olarak), sahanın tepesindeki bir kameradan veri almasıdır.
+
+
+
+1.  **Tepe Kamera:** Sahayı kuş bakışı gören bir kamera (veya kameralar) tüm robotların ve topun konumunu anlık olarak bilgisayara aktarır.
+2.  **Görüntü İşleme (SSL-Vision):** Genellikle açık kaynaklı "SSL-Vision" yazılımı veya takımın kendi geliştirdiği yazılım, görüntüden X, Y koordinatlarını ve robotun yönelim açısını ($\theta$) çıkarır.
+3.  **Ana Bilgisayar (Yapay Zeka):** Koordinat verileri takımın ana bilgisayarına gelir. Burada strateji yazılımı çalışır ("Top bizde mi?", "Kaleye şut çekmeli miyim?", "Pas mı vermeliyim?").
+4.  **Haberleşme:** Ana bilgisayar, hesapladığı hız ve hareket komutlarını (Örn: Robot 1, $V_x=2m/s$, $V_y=0.5m/s$) telsiz modüller (NRF, XBee veya WiFi) aracılığıyla sahadaki robotlara gönderir.
+
+### 3. Robot Donanımı (Mekanik ve Elektronik)
+Robolig robotları, standart bir çizgi izleyen robottan çok daha komplekstir.
+
+* **Hareket Sistemi (Omni-Directional):** Robotlar, gövdesini döndürmeden her yöne gidebilmelidir. Bu yüzden **Omni tekerlekler** kullanılır. Genellikle 3 veya 4 tekerlekli, 120 veya 90 derece açılı yerleşimler tercih edilir.
+* **Vuruş Mekanizması (Kicker):** Topa sert vurmak için solenoid bobinler kullanılır. Yüksek voltajlı kapasitörler şarj edilir ve anlık olarak bobine boşaltılarak "çekiç" benzeri bir milin topa vurması sağlanır.
+* **Top Tutma (Dribbler):** Robot hareket halindeyken topun önünden kaçmaması için, ön tarafta dönen silikon bir rulo bulunur. Bu rulo topa ters spin vererek robotun "ayağına" yapışmasını sağlar.
+* **Motorlar:** Hızlı tepki süresi için genellikle enkoderli DC motorlar veya fırçasız (BLDC) motorlar kullanılır (Maxon, Faulhaber gibi markalar veya bunların muadilleri).
+* **Mikrodenetleyici:** Robotun üzerindeki (Low-Level) işlemleri yapmak için STM32 serisi (F4, F7) işlemciler yaygındır çünkü işlem hızı ve pin sayısı yüksektir.
+
+### 4. Yazılım Katmanları (Zor Kısım)
+Robolig'i kazandıran kısım genellikle yazılımdır.
+
+* **Yol Planlama (Path Planning):** Robotun A noktasından B noktasına giderken rakip robotlara çarpmaması gerekir. *RRT (Rapidly-exploring Random Tree)* veya *A* (A-Star)* algoritmaları kullanılır.
+* **Rol Paylaşımı:** Sahadaki robotların dinamik olarak rol değiştirmesi gerekir. Örneğin, topa en yakın robot "Forvet" olurken, diğerleri "Defans" veya "Destek" pozisyonuna geçmelidir.
+* **Oyun Stratejisi:**
+    * *Paslaşma:* Topun önü kapalıysa boştaki arkadaşa pas atma.
+    * *Markaj:* Rakip robotların önünü kesme.
+* **PID Kontrol:** Robotun istenilen hıza ve konuma tam oturması için hassas PID ayarları şarttır.
+
+### 5. Yarışmaya Hazırlık Süreci
+1.  **Şartname Analizi:** Her yıl kurallar (robot boyutu, ağırlığı, top rengi) değişebilir. İlk iş şartnameyi ezberlemektir.
+2.  **Simülasyon:** Robotu fiziksel olarak üretmeden önce **Webots**, **Gazebo** veya **GrSim** (SSL için özel simülatör) ortamında kodlar test edilmelidir.
+3.  **Malzeme Tedariği:** Omni tekerlekler, solenoidler ve motorlar genellikle yurt dışından geldiği için süreç erken başlatılmalıdır.
+4.  **Entegrasyon:** Mekanik montaj bittikten sonra en çok zamanı "Tuning" (ince ayar) alır. Robotun düz gitmesi bile bazen günler sürebilir.
+
+### Kritik İpucu:
+Jüri sunumlarında ve teknik raporda; sadece "yaptık oldu" demek yerine, **"Neden bu motoru seçtiniz?", "Neden bu algoritmayı kullandınız?"** gibi mühendislik kararlarını gerekçelendirmeniz (trade-off analizi) çok yüksek puan getirir.
+
+**Senin şu anki odak noktan hangisi?** Mekanik tasarım aşamasında mısın, yoksa yapay zeka/yazılım kısmına mı girişiyorsun? Ona göre daha spesifik kaynaklar önerebilirim.
