@@ -7,6 +7,39 @@
 ![Image](https://strasam.org/upload/resimler/c282e7d567.webp)
 
 -
+## 📁 Proje Yapısı (Başlangıç)
+
+- docs/ — Yarışma dokümantasyonu, rapor şablonları ve diyagramlar
+- src/
+  - crypto/ — Kriptografi ve anahtar yönetimi modülleri (örn. AES-GCM, ChaCha20-Poly1305, ECDH/X25519)
+  - protocols/ — Uplink/Downlink çerçeveleme, kimlik doğrulama, yeniden-iletim (ARQ), anti-replay koruması
+  - sim/ — Kanal modelleri (AWGN, Rayleigh), link bütçesi taslağı, parazit/jamming ve paket kaybı senaryoları
+- tests/ — Birim ve entegrasyon testleri (kriptografi, protokol, simülasyon)
+
+## ⚡ Hızlı Başlangıç (Öneri)
+
+1. docs klasöründe Fikir Ön Değerlendirme Raporu (FÖDR) taslağını açın.
+2. src/sim içinde basit bir kanal simülatörü iskeleti oluşturun (AWGN + paket kaybı).
+3. src/crypto içinde şifreleme için bir arayüz tanımlayın (AES-GCM veya ChaCha20-Poly1305) ve anahtar anlaşması için ECDH (X25519) planlayın.
+4. src/protocols içinde çerçeve formatı, sıra numarası ve mesaj kimlik doğrulama (MAC) alanlarını belirleyin.
+5. tests altında uçtan uca “şifrele → gönder → bozulmuş/bozulmamış kanaldan geçiş → doğrula” akışını test eden ilk testleri ekleyin.
+
+## 🧭 Minimum Uygulanabilir Prototip (MVP)
+
+- Uçtan uca şifreleme: AES-GCM veya ChaCha20-Poly1305 (AEAD).
+- Anahtar anlaşması: ECDH (X25519) + ephemeral anahtarlar.
+- Kimlik doğrulama: El sıkışmada dijital imza (Ed25519) veya ön-paylaşımlı kimlikler.
+- Anti-replay: Sıra numarası + sliding window.
+- Dayanıklılık: Temel yeniden-iletim (ARQ) ve basit hız uyarlaması; jamming test senaryoları sim/ altında.
+
+## 🗺️ Yol Haritası (2–4 Hafta)
+
+- Hafta 1: Protokol çerçevesi, sim/ AWGN modeli, temel test iskeleti.
+- Hafta 2: AEAD şifreleme entegrasyonu, ECDH anahtar değişimi, anti-replay.
+- Hafta 3: Jamming senaryoları, yeniden-iletim stratejileri, hata ayıklama logları.
+- Hafta 4: Performans metrikleri (BER/PER, gecikme), rapor ve sunum taslakları.
+
+Not: Bu klasör, öncelikle yazılım prototipi ve simülasyon akışına odaklanır; donanım entegrasyonu sonraki aşamalarda ele alınacaktır.
 
 ### 🔍 Yarışmanın amacı nedir?
 
