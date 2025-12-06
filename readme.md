@@ -389,3 +389,4 @@ Yeni rehber oluştururken kullanabileceğiniz şablonlar için [templates/README
 
 **⭐ Bu repository size yardımcı olduysa, bir yıldız vermeyi unutmayın!**
 
+.
