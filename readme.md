@@ -16,7 +16,7 @@
 
 Hoş geldiniz. Burası, Türkiye'nin sadece teknolojiyi tüketen değil, küresel ölçekte **oyun kurucu** olduğu yeni bir çağın dijital karargahıdır. TEKNOFEST, niceliksel büyüklüğüyle dünyanın bir numarası olduğu gibi, niteliksel çıktalarıyla da teknoloji tarihinin akışını değiştiren bir paradigma devrimidir. Bu repository, bu devrimin mimarları olan sizler için hazırlanmış stratejik bir bilgi üssüdür.
 
-[Yarışmaları Keşfet](#-teknoloji-arenasi) • [Rehberler](#-yarismaci-kutuphanesi) • [Katkı Ver](#-bir-tas-da-sen-koy)
+[Yarışmaları Keşfet](#teknoloji-arenasi) • [Rehberler](#yarismaci-kutuphanesi) • [Katkı Ver](#bir-tas-da-sen-koy)
 
 </div>
 
@@ -36,7 +36,7 @@ Burada bulacaklarınız basit kodlar değil, geleceğin süper gücünün yapı 
 
 ---
 
-## ⚔️ TEKNOLOJİ ARENASI
+## <a id="teknoloji-arenasi"></a>⚔️ TEKNOLOJİ ARENASI
 
 Yarışma kategorilerini keşfedin ve kendi cephenizi seçin.
 
@@ -137,7 +137,7 @@ Yarışmaların ötesinde, teknolojinin kalbinin attığı 3 ana merkez.
 
 ---
 
-## 📚 YARIŞMACI KÜTÜPHANESİ
+## <a id="yarismaci-kutuphanesi"></a>📚 YARIŞMACI KÜTÜPHANESİ
 
 Başarıya giden yolda ihtiyacınız olan teknik cephane.
 
@@ -151,7 +151,7 @@ Başarıya giden yolda ihtiyacınız olan teknik cephane.
 
 ---
 
-## 🤝 BİR TAŞ DA SEN KOY
+## <a id="bir-tas-da-sen-koy"></a>🤝 BİR TAŞ DA SEN KOY
 
 Bu repository, kolektif bilincin ürünüdür. Eksik bir şey mi gördün? Daha iyi bir kod mu yazdın?
 
