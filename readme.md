@@ -143,8 +143,9 @@ Başarıya giden yolda ihtiyacınız olan teknik cephane.
 
 *   **[Sık Sorulan Sorular (FAQ)](FAQ.md):** Aklınızdaki soruların cevapları.
 *   **[Kaynaklar (RESOURCES)](RESOURCES.md):** Eğitim videoları, makaleler ve araçlar.
-*   **[Kod Örnekleri (CODE)](code/README.md):** Python, C++, MATLAB ve daha fazlası için hazır şablonlar.
+*   **[Kod Örnekleri (CODE)](_TEKNOFEST_CORE/shared_code/README.md):** Python, C++, MATLAB ve daha fazlası için hazır şablonlar.
 *   **[Yol Haritası (ROADMAP)](ROADMAP.md):** TEKNOFEST 2025 ve sonrası için vizyonumuz.
+*   **[Şablonlar (TEMPLATES)](_TEKNOFEST_CORE/templates/README_TEMPLATE.md):** Profesyonel dokümantasyon şablonları.
 
 > 🛠️ **İPUCU:** Her klasörün içinde o yarışmaya özel `README.md` dosyalarını mutlaka inceleyin. Orada altın değerinde teknik detaylar saklı.
 

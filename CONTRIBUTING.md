@@ -1,23 +1,18 @@
-# 🤝 Katkıda Bulunma Rehberi
+# 🤝 MİLLİ TEKNOLOJİ HAMLESİNE KATKI REHBERİ
+> **"Birlikte Geliştir, Geleceği Kodla."**
 
-Bu repository'ye katkıda bulunmak istediğiniz için teşekkürler! TEKNOFEST yarışmalarına katılan veya katılmak isteyen takımlar için hazırlanmış bu rehber koleksiyonunu birlikte geliştirelim.
+Bu repository, sadece bir dosya deposu değil; Türkiye'nin teknolojik geleceğini inşa eden kolektif bir zekadır. Burada yapacağın her katkı, bir başka takıma ilham olacak, bir roketin daha yükseğe çıkmasını, bir otonom aracın daha güvenli gitmesini sağlayacaktır.
 
-## 📋 İçindekiler
+Devrimin bir parçası olmaya hazır mısın?
 
-- [Nasıl Katkı Yapılır?](#nasıl-katkı-yapılır)
-- [Stil ve Biçim](#stil-ve-biçim)
-- [PR Kontrol Listesi](#pr-kontrol-listesi)
-- [Yeni Rehber Ekleme](#yeni-rehber-ekleme)
-- [Lisans](#lisans)
+## 📋 Görev Manifestosu
 
----
+1. **Katkı Türleri:**
+    - **Rehber Ekle:** Yeni bir kategori için strateji rehberi yaz.
+    - **Kod Paylaş:** Geliştirdiğin açık kaynak `_TEKNOFEST_CORE` modüllerini paylaş.
+    - **Hata Düzelt:** Gözden kaçanları yakala.
+    - **Vizyon Kat:** Yeni mimari önerileri getir (örn: `_FUTURE_LABS` için yeni bir araştırma alanı).
 
-## 🚀 Nasıl Katkı Yapılır?
-
-### 1. Issue Açma
-- Bir hata bulduysanız veya yeni bir özellik öneriyorsanız, önce bir [Issue](https://github.com/kullaniciadi/repo-adi/issues) açın
-- Issue'da ne yapmak istediğinizi net bir şekilde açıklayın
-- Eğer bir hata düzeltiyorsanız, hatayı nasıl tekrarlayabileceğimizi açıklayın
 
 ### 2. Fork ve Clone
 ```bash
