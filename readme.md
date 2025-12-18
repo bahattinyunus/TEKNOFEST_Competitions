@@ -46,20 +46,20 @@ Yarışma kategorilerini keşfedin ve kendi cephenizi seçin.
 
 | Kategori | Açıklama |
 | :--- | :--- |
-| **🚀 [Roket](roket/)** | Yüksek irtifa roket tasarımı ve simülasyonları. |
-| **🛬 [Dikey İnişli Roket](dikey_inişli_roket/)** | SpaceX tarzı kontrollü iniş sistemleri. |
-| **🛸 [Savaşan İHA](savasan_iha/)** | Hava-hava muharebesi yapan otonom İHA'lar. |
-| **🚁 [Helikopter Tasarım](helikopter_tasarımı/)** | İleri seviye döner kanat tasarımları. |
-| **🛰️ [Model Uydu](model_uydu/)** | Telemetri ve iletişim sistemleri minyatürize edildi. |
-| **✈️ [Uluslararası İHA](uluslararası_iha/)** | Sabit ve döner kanatlı İHA görevleri. |
-| **🔥 [Jet Motor](jet_motor_tasarımı/)** | Gaz türbinli motor teknolojileri. |
-| **🐝 [Sürü İHA](sürü_iha/)** | Koordineli uçan sürü zekası. |
-| **🌊 [Su Altı Roket](su_altı_roket/)** | Denizden fırlatılan taktik sistemler. |
-| **💡 [Aviation Ideathon](aviation_ıdeathon/)** | Havacılık endüstrisi için fikir maratonu. |
-| **🏎️ [Drone Yarışması](drone_yarısması/)** | Hız ve manevra kabiliyeti. |
-| **🌍 [World Drone Cup](world_drone_cup/)** | Dünyanın en iyi drone pilotları. |
-| **🔒 [Güvenli Uydu Haberleşme](güvenli_uydu_haberlesme/)** | Anti-jamming ve şifreli iletişim. |
-| **🛡️ [Hava Savunma](hava_savunma/)** | Alçak irtifa hava savunma sistemleri. |
+| **🚀 [Roket](DOMINION_AEROSPACE/roket/)** | Yüksek irtifa roket tasarımı ve simülasyonları. |
+| **🛬 [Dikey İnişli Roket](DOMINION_AEROSPACE/dikey_inişli_roket/)** | SpaceX tarzı kontrollü iniş sistemleri. |
+| **🛸 [Savaşan İHA](DOMINION_AEROSPACE/savasan_iha/)** | Hava-hava muharebesi yapan otonom İHA'lar. |
+| **🚁 [Helikopter Tasarım](DOMINION_AEROSPACE/helikopter_tasarımı/)** | İleri seviye döner kanat tasarımları. |
+| **🛰️ [Model Uydu](DOMINION_AEROSPACE/model_uydu/)** | Telemetri ve iletişim sistemleri minyatürize edildi. |
+| **✈️ [Uluslararası İHA](DOMINION_AEROSPACE/uluslararası_iha/)** | Sabit ve döner kanatlı İHA görevleri. |
+| **🔥 [Jet Motor](DOMINION_AEROSPACE/jet_motor_tasarımı/)** | Gaz türbinli motor teknolojileri. |
+| **🐝 [Sürü İHA](DOMINION_AEROSPACE/sürü_iha/)** | Koordineli uçan sürü zekası. |
+| **🌊 [Su Altı Roket](DOMINION_AEROSPACE/su_altı_roket/)** | Denizden fırlatılan taktik sistemler. |
+| **💡 [Aviation Ideathon](DOMINION_AEROSPACE/aviation_ıdeathon/)** | Havacılık endüstrisi için fikir maratonu. |
+| **🏎️ [Drone Yarışması](DOMINION_AEROSPACE/drone_yarısması/)** | Hız ve manevra kabiliyeti. |
+| **🌍 [World Drone Cup](DOMINION_AEROSPACE/world_drone_cup/)** | Dünyanın en iyi drone pilotları. |
+| **🔒 [Güvenli Uydu Haberleşme](DOMINION_AEROSPACE/güvenli_uydu_haberlesme/)** | Anti-jamming ve şifreli iletişim. |
+| **🛡️ [Hava Savunma](DOMINION_AEROSPACE/hava_savunma/)** | Alçak irtifa hava savunma sistemleri. |
 
 ---
 
@@ -69,24 +69,25 @@ Yarışma kategorilerini keşfedin ve kendi cephenizi seçin.
 
 | Kategori | Açıklama |
 | :--- | :--- |
-| **🇹🇷 [Türkçe NLP](turkce_dogal_dil_isleme/)** | Doğal Dil İşleme için yerli modeller. |
-| **🤖 [Eylem Temelli LLM](eylem_temelli_türce_llm/)** | Aksiyon alabilen büyük dil modelleri. |
-| **🎬 [Yapay Zeka Film](yapay_zeka_film/)** | Generative AI ile sinematik üretim. |
-| **🏥 [Sağlıkta Yapay Zeka](saglıkta_ai/)** | Medikal görüntüleme ve teşhis sistemleri. |
-| **⛓️ [Blokzincir](blokzincir/)** | Merkeziyetsiz finans ve kimlik çözümleri. |
-| **💰 [Finansal Teknolojiler](finansal_teknolojiler/)** | Fintech ve ödeme sistemleri. |
-| **🐛 [Pardus Hata Yakalama](pardus_hata_yakalama/)** | Açık kaynak işletim sistemi geliştirmeleri. |
-| **📍 [Adres Çözümleme](adres_cozumleme/)** | Coğrafi bilgi sistemleri ve adresleme. |
-| **✈️ [Havacılıkta AI](havacılıkta_ai/)** | Hava araçları için yapay zeka çözümleri. |
-| **📶 [Kablosuz Haberleşme](kablosuz_haberlesme/)** | Yeni nesil haberleşme protokolleri. |
-| **💾 [Çip Tasarımı](çip_tasarımı/)** | IC tasarım ve doğrulama süreçleri. |
-| **🏭 [Sanayide Dijital Teknolojiler](sanayide_dijital_teknolojiler/)** | Endüstri 4.0 ve fabrika otomasyonu. |
-| **🧬 [Biyoteknoloji İnovasyon](biyoteknoloji_inovasyon/)** | Genetik, sentetik biyoloji ve medikal inovasyon. |
-| **🎗️ [Onkolojide 3T](onkolojide_3t/)** | Tanı, Tedavi ve Takip teknolojileri. |
-| **🧠 [Psikolojide Uygulamalar](psikolojide_uygulamalar/)** | Ruh sağlığı için teknolojik çözümler. |
-| **🛒 [E-Ticaret Hackathonu](e_ticaret_hackathonu/)** | Yeni nesil alışveriş deneyimleri. |
-| **📱 [NSosyal Creathon](nsosyal_creathon/)** | Sosyal medya ve içerik üretimi inovasyonu. |
-| **⚽ [Robolig](robolig/)** | Robot futbol ve spor teknolojileri. |
+| **🇹🇷 [Türkçe NLP](DOMINION_AI_DATA/turkce_dogal_dil_isleme/)** | Doğal Dil İşleme için yerli modeller. |
+| **🤖 [Eylem Temelli LLM](DOMINION_AI_DATA/eylem_temelli_türce_llm/)** | Aksiyon alabilen büyük dil modelleri. |
+| **🎬 [Yapay Zeka Film](DOMINION_AI_DATA/yapay_zeka_film/)** | Generative AI ile sinematik üretim. |
+| **🏥 [Sağlıkta Yapay Zeka](DOMINION_AI_DATA/saglıkta_ai/)** | Medikal görüntüleme ve teşhis sistemleri. |
+| **⛓️ [Blokzincir](DOMINION_AI_DATA/blokzincir/)** | Merkeziyetsiz finans ve kimlik çözümleri. |
+| **💰 [Finansal Teknolojiler](DOMINION_AI_DATA/finansal_teknolojiler/)** | Fintech ve ödeme sistemleri. |
+| **🐛 [Pardus Hata Yakalama](DOMINION_AI_DATA/pardus_hata_yakalama/)** | Açık kaynak işletim sistemi geliştirmeleri. |
+| **📍 [Adres Çözümleme](DOMINION_AI_DATA/adres_cozumleme/)** | Coğrafi bilgi sistemleri ve adresleme. |
+| **✈️ [Havacılıkta AI](DOMINION_AI_DATA/havacılıkta_ai/)** | Hava araçları için yapay zeka çözümleri. |
+| **📶 [Kablosuz Haberleşme](DOMINION_AI_DATA/kablosuz_haberlesme/)** | Yeni nesil haberleşme protokolleri. |
+| **💾 [Çip Tasarımı](DOMINION_AI_DATA/çip_tasarımı/)** | IC tasarım ve doğrulama süreçleri. |
+| **🏭 [Sanayide Dijital Teknolojiler](DOMINION_AI_DATA/sanayide_dijital_teknolojiler/)** | Endüstri 4.0 ve fabrika otomasyonu. |
+| **🧬 [Biyoteknoloji İnovasyon](DOMINION_AI_DATA/biyoteknoloji_inovasyon/)** | Genetik, sentetik biyoloji ve medikal inovasyon. |
+| **🎗️ [Onkolojide 3T](DOMINION_AI_DATA/onkolojide_3t/)** | Tanı, Tedavi ve Takip teknolojileri. |
+| **🧠 [Psikolojide Uygulamalar](DOMINION_AI_DATA/psikolojide_uygulamalar/)** | Ruh sağlığı için teknolojik çözümler. |
+| **🛒 [E-Ticaret Hackathonu](DOMINION_AI_DATA/e_ticaret_hackathonu/)** | Yeni nesil alışveriş deneyimleri. |
+| **📱 [NSosyal Creathon](DOMINION_AI_DATA/nsosyal_creathon/)** | Sosyal medya ve içerik üretimi inovasyonu. |
+| **⚽ [Robolig](DOMINION_AI_DATA/robolig/)** | Robot futbol ve spor teknolojileri. |
+| **⚛️ [Kuantum Teknolojileri](DOMINION_AI_DATA/kuantum_teknolojileri/)** | Kuantum simülasyon ve hesaplama. |
 
 ---
 
@@ -96,18 +97,18 @@ Yarışma kategorilerini keşfedin ve kendi cephenizi seçin.
 
 | Kategori | Açıklama |
 | :--- | :--- |
-| **🚕 [Robotaksi](robotaksi/)** | Tam otonom binek araç yarışması. |
-| **🚙 [İnsansız Kara Aracı](insansız_kara_aracı/)** | Zorlu arazi şartlarında otonom navigasyon. |
-| **🌊 [İnsansız Su Altı](insansız_su_altı/)** | Su altı görüntü işleme ve manipülasyon. |
-| **⚓ [İnsansız Deniz Aracı](insansız_deniz_aracı/)** | Otonom gemi ve tekne sistemleri. |
-| **🚅 [Hyperloop](hyperloop/)** | Ses hızında kapsül taşımacılığı. |
-| **⚡ [Efficiency Challenge](uluslararası_efficiency_elektirikli_arac/)** | Elektrikli araç verimlilik yarışları. |
-| **📡 [5G Konumlandırma](5g_konumlandırma/)** | Yeni nesil haberleşme ve lokalizasyon. |
-| **🚦 [Akıllı Ulaşım](akıllı_ulaşım/)** | Trafik yönetimi ve ulaşım zekası. |
-| **♻️ [Çevre ve Enerji](çevre_enerji/)** | Yenilenebilir enerji ve atık yönetimi. |
-| **🏙️ [Geleceğin Şehirleri](geleceğin_sürdürülebir_şehirleri/)** | Sürdürülebilir şehircilik ve IoT. |
-| **☢️ [Nükleer Enerji](nükleer_enerji_teknolojileri/)** | Güvenli nükleer teknolojiler. |
-| **🚜 [Tarım Teknolojileri](tarım_teknolojileri/)** | Akıllı tarım ve hassas hasat. |
+| **🚕 [Robotaksi](DOMINION_AUTONOMY/robotaksi/)** | Tam otonom binek araç yarışması. |
+| **🚙 [İnsansız Kara Aracı](DOMINION_AUTONOMY/insansız_kara_aracı/)** | Zorlu arazi şartlarında otonom navigasyon. |
+| **🌊 [İnsansız Su Altı](DOMINION_AUTONOMY/insansız_su_altı/)** | Su altı görüntü işleme ve manipülasyon. |
+| **⚓ [İnsansız Deniz Aracı](DOMINION_AUTONOMY/insansız_deniz_aracı/)** | Otonom gemi ve tekne sistemleri. |
+| **🚅 [Hyperloop](DOMINION_AUTONOMY/hyperloop/)** | Ses hızında kapsül taşımacılığı. |
+| **⚡ [Efficiency Challenge](DOMINION_AUTONOMY/uluslararası_efficiency_elektirikli_arac/)** | Elektrikli araç verimlilik yarışları. |
+| **📡 [5G Konumlandırma](DOMINION_AUTONOMY/5g_konumlandırma/)** | Yeni nesil haberleşme ve lokalizasyon. |
+| **🚦 [Akıllı Ulaşım](DOMINION_AUTONOMY/akıllı_ulaşım/)** | Trafik yönetimi ve ulaşım zekası. |
+| **♻️ [Çevre ve Enerji](DOMINION_AUTONOMY/çevre_enerji/)** | Yenilenebilir enerji ve atık yönetimi. |
+| **🏙️ [Geleceğin Şehirleri](DOMINION_AUTONOMY/geleceğin_sürdürülebir_şehirleri/)** | Sürdürülebilir şehircilik ve IoT. |
+| **☢️ [Nükleer Enerji](DOMINION_AUTONOMY/nükleer_enerji_teknolojileri/)** | Güvenli nükleer teknolojiler. |
+| **🚜 [Tarım Teknolojileri](DOMINION_AUTONOMY/tarım_teknolojileri/)** | Akıllı tarım ve hassas hasat. |
 
 ---
 
@@ -117,12 +118,12 @@ Yarışma kategorilerini keşfedin ve kendi cephenizi seçin.
 
 | Kategori | Açıklama |
 | :--- | :--- |
-| **♿ [Engelsiz Yaşam](engelsiz_yaşam/)** | Engelliler için teknolojik çözümler. |
-| **🎓 [Eğitim Teknolojileri](eğitim_teknolojileri/)** | Öğrenme deneyimini geliştiren araçlar. |
-| **🤝 [İnsanlık Yararına Teknoloji](insanlık_yararına_teknoloji/)** | Afet yönetimi ve sosyal inovasyon. |
-| **🌊 [Mavi Vatan Makale](mavi_vatan_makale/)** | Denizcilik stratejileri üzerine akademik çalışmalar. |
-| **🛠️ [Mesleki Yetenek](mesleki_yetenek/)** | Teknik beceri ve zanaat yarışmaları. |
-| **🏛️ [Mimari Görsel Tasarım](mimari_görsel_tasarım/)** | Geleceğin mimari estetiği. |
+| **♿ [Engelsiz Yaşam](DOMINION_SOCIETY/engelsiz_yaşam/)** | Engelliler için teknolojik çözümler. |
+| **🎓 [Eğitim Teknolojileri](DOMINION_SOCIETY/eğitim_teknolojileri/)** | Öğrenme deneyimini geliştiren araçlar. |
+| **🤝 [İnsanlık Yararına Teknoloji](DOMINION_SOCIETY/insanlık_yararına_teknoloji/)** | Afet yönetimi ve sosyal inovasyon. |
+| **🌊 [Mavi Vatan Makale](DOMINION_SOCIETY/mavi_vatan_makale/)** | Denizcilik stratejileri üzerine akademik çalışmalar. |
+| **🛠️ [Mesleki Yetenek](DOMINION_SOCIETY/mesleki_yetenek/)** | Teknik beceri ve zanaat yarışmaları. |
+| **🏛️ [Mimari Görsel Tasarım](DOMINION_SOCIETY/mimari_görsel_tasarım/)** | Geleceğin mimari estetiği. |
 
 ### 🏰 İLERİ MİMARİLER (AR-GE MERKEZLERİ)
 
