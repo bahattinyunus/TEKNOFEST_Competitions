@@ -1,4 +1,10 @@
 # 🧠 TEKNOFEST CORE (OS)
+![Core AI](https://img.shields.io/badge/SYSTEM-KERNEL_ACTIVE-green?style=for-the-badge) ![Version](https://img.shields.io/badge/VERSION-2025.1-blue?style=for-the-badge)
+
+<div align="center">
+  <img src="../assets/images/ai.png" alt="Core AI System" width="100%" />
+</div>
+
 > **"Bütünsel Zeka, Parçalı Bilgiden Üstündür."**
 
 Bu dizin, tüm TEKNOFEST yarışmalarında kullanılan ortak **yazılım iskeletini (Software Backbone)** barındırır. Tekerrürü önlemek ve standardizasyonu sağlamak amacıyla geliştirilen bu çekirdek, otonomiden roket mühendisliğine kadar her alanda "Tak-Çalıştır" modüller sunar.
