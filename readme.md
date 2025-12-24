@@ -131,6 +131,8 @@ Yarışmaların ötesinde, teknolojinin kalbinin attığı 3 ana merkez.
 
 | Merkez | Misyon |
 | :--- | :--- |
+| **🛰️ [`_STRATEGIC_COMMAND`](_STRATEGIC_COMMAND/)** | **Komuta Merkezi:** Yarışma dominasyonu için doktrinler ve taktik rehberler. |
+| **📡 [`_INTEL_REPORTS`](_INTEL_REPORTS/)** | **Küresel İstihbarat:** DARPA, SpaceX ve global teknoloji devlerinin analizleri. |
 | **🧠 [`_TEKNOFEST_CORE`](_TEKNOFEST_CORE/)** | **Ortak Zeka:** Bütün projelerin kullandığı yapay zeka ve matematik kütüphaneleri. |
 | **🧪 [`_FUTURE_LABS`](_FUTURE_LABS/)** | **Gelecek Laboratuvarı:** Kuantum, Nöro-Tech ve Füzyon gibi henüz yarışması olmayan teknolojiler. |
 | **🌐 [`_DIGITAL_TWIN`](_DIGITAL_TWIN/)** | **Simülasyon Merkezi:** Araçların dijital ikizleri ve sanal test ortamları. |
